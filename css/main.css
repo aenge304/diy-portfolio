@@ -1,0 +1,199 @@
+/***BASE STYLES***/
+.full-width{
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width{
+    float: left;
+    width: 600px;
+}
+
+.third-width{
+    float: left;
+    width: 400px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 72px;
+}
+
+h1 span{
+    color: #fa0075;
+}
+
+h2{
+    color: #38F06D;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+h2 a{
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h3{
+    color: #897AFA;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+/****HEADER STYLES****/
+header{
+    background-color: #1F202B;
+}
+
+header #hero-img{
+    background-color: #1F202B;
+    background-image: url(../assets/hero-background.png);
+    background-size: cover;
+    clear: both ;
+    height: 550px;
+    ;
+}
+
+header #head-title{
+    margin: 0;
+}
+
+header #head-title a{
+    color: #ffffff;
+    float: left;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+header h1{ 
+    padding: 150px 100px;
+    width: 600px;
+}
+
+header h2{
+    color: #ffffff;
+    float: left;
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+#nav ul{
+    float: right;
+    margin-top: 25px;
+}
+
+#nav ul li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 50px;
+}
+
+#nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/****PORTFOLIO STYLES****/
+main{
+    background-color: #1F202B;
+}
+
+#portfolio h2{
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+#austen-project{
+    margin: 0 auto;
+    overflow: auto;
+    padding-left: 45px;
+    padding-bottom: 45px;
+}
+
+#sit-conmigo-project{
+    height: 350px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+}
+
+#rogue-project{ 
+    height: 350px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+}
+
+
+/****ABOUT STYLES****/
+#about { 
+    background-image: url(../assets/about-me-back.png);
+    background-size: cover;
+    clear: both;
+    height: 400px;
+}
+
+#about h2{
+    clear: both;
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+#about p{
+    margin-left: 325px;
+    padding-top: 15px;
+    text-align: center;
+    width: 600px;
+}
+
+
+/****FOOTER STYLES****/
+#contact{
+    background-color: #1F202B;
+    background-size: cover;
+    height: 300px;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact p{
+    padding-left: 45px;
+}
+
+#social{
+    margin: 25px;
+}
+
+#contact img{
+    padding-left: 50px;
+}
+
+
+/****RESUME PAGE****/
+#resume img{ 
+    padding: 25px 25px;
+    width: 1200px;
+}
